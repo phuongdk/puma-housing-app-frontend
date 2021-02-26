@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Puma Housing Estate Application",
+    "slug": "pumahousing",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover"
+    },
+    "android": {
+      "package": "com.phuongdk.pumahousing",
+      "versionCode": 4,
+      "config": {}
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "description": "Puma Housing Estate Application"
+  }
+}
