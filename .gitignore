@@ -129,6 +129,7 @@ docs/pages/versions/*/react-native/*.diff
 
 # Home
 /home/dist
+/dist
 
 # Prebuilds
 /packages/**/*.xcframework

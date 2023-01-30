@@ -2,33 +2,42 @@
   "expo": {
     "name": "Puma Housing Estate Application",
     "slug": "pumahousing",
-    "privacy": "public",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover"
+    },
     "platforms": [
       "ios",
       "android",
       "web"
     ],
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "cover"
-    },
     "android": {
       "package": "com.phuongdk.pumahousing",
-      "versionCode": 4,
-      "config": {}
+      "versionCode": 4
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/9a9eae8c-aac6-4055-a4e7-eed1ee54bdaf"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.phuongdk.pumahousing"
     },
-    "description": "Puma Housing Estate Application"
+    "description": "Puma Housing Estate Application",
+    "extra": {
+      "eas": {
+        "projectId": "9a9eae8c-aac6-4055-a4e7-eed1ee54bdaf"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
   }
 }
